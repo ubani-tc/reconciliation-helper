@@ -1,4 +1,5 @@
 Flask==2.3.0
 pandas==2.0.3
 openpyxl==3.1.2
-numpy # Assuming numpy is needed as it is imported in app.py
+numpy # Added because it is imported in app.py
+gunicorn # Essential for production
